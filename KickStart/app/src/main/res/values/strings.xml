@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KickStart</string>
+    <string name="something_wrong">Sorry,something went wrong.Please try again.</string>
+    <string name="img_tran">transition_img</string>
+    <string name="title_tran">transition_title</string>
+    <!-- For double tap Exit-->
+    <string name="press_once_again_to_exit">Tap back again to exit app</string>
+</resources>

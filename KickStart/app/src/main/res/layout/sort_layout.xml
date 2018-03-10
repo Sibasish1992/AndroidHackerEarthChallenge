@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_weight="1.5"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/details"
+    android:layout_toRightOf="@+id/topic_icon"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginRight="64dp"
+    android:clickable="true"
+    android:background="@drawable/curve_shape"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Sort By"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <RadioGroup
+        android:id="@+id/radioSort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Original"
+            android:checked="true"
+            android:layout_marginBottom="7dp"
+           />
+
+        <RadioButton
+            android:id="@+id/radioTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:layout_marginBottom="7dp"/>
+        <RadioButton
+            android:id="@+id/radioAlpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alphabetically"
+            android:layout_marginBottom="7dp"/>
+
+    </RadioGroup>
+
+    </LinearLayout>

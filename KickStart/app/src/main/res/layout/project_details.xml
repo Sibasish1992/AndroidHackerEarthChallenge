@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Visit the project"
+        android:id ="@+id/redirect"/>
+</RelativeLayout>
+
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:textSize="30sp"
+     android:text="Title of the picture"
+     android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+     android:layout_margin="8dp"
+     android:transitionName="@string/title_tran"
+     android:id ="@+id/title"/>
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:id="@+id/by"/>
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/sno"/>
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/pleadge"/>
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/blurb"/>
+    <View style="@style/Divider" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/currency"/>
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/end_time"/>
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/percentage_funded"/>
+
+    <View style="@style/Divider" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/num_backers"/>
+
+    <View style="@style/Divider" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="20sp"
+       android:text="Title of the picture"
+       android:layout_margin="8dp"
+       android:id="@+id/location"/>
+
+   <View style="@style/Divider" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/state"/>
+
+    <View style="@style/Divider" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:textSize="20sp"
+       android:text="Title of the picture"
+       android:layout_margin="8dp"
+       android:id="@+id/country"/>
+   <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="Title of the picture"
+        android:layout_margin="8dp"
+        android:id="@+id/type"/>
+
+    <View style="@style/Divider" />
+
+
+
+
+
+</LinearLayout>
